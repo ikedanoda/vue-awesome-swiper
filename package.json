@@ -45,6 +45,9 @@
     "rebirth": "npm run lint && npm test && npm run build",
     "release": ". ./scripts/release.sh"
   },
+  "dependencies": {
+    "swiper": "^6.8.4"
+  },
   "peerDependencies": {
     "swiper": "^6.8.4",
     "vue": "2.x"
